@@ -1,8 +1,5 @@
 # Create a professional README.md file for the React Native Product Module
 
-
-
-readme_content = """
 # React Native Product Module
 
 ## 📱 Overview
