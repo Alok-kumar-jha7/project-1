@@ -43,6 +43,19 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "3a2a6687-4553-464b-81f2-b8403743f0d8"
+      }
+    },
+    "owner": "alok7",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3a2a6687-4553-464b-81f2-b8403743f0d8"
     }
   }
 }

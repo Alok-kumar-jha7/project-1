@@ -6,7 +6,7 @@ import {
   ScrollView,
   TouchableOpacity,
 } from "react-native";
-import { useLocalSearchParams } from "expo-router";
+import { useLocalSearchParams, useRouter } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
 import React, { useState } from "react";
 import ErrorScreen from "@/components/Error";
@@ -16,6 +16,7 @@ export default function ProductDetail() {
   const { product } = useLocalSearchParams();
   if (!product) return <ErrorScreen />;
   const ProductData = JSON.parse(product);
+  const router = useRouter();
   return (
     <SafeAreaView style={styles.container}>
       <View style={{ flexDirection: "row" }}>
