@@ -1,50 +1,95 @@
-# Welcome to your Expo app 👋
+# Welcome to our app 👋
+# React Native Product Module
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📱 Overview
+This project is a mini product module built using React Native (Expo).
+It fetches products from the Escuela API and displays them in a list.
+Users can navigate to a detail screen to view more information about each product.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
+- Product List Screen with API integration
+- Product Detail Screen
+- Loading with react native inbuilt component and Error handling
+- Reusable components (Button, Error)
+- Responsive layout for different screen sizes
+- Clean UI with modern styling
 
-   ```bash
+---
+
+## 🛠 Tech Stack
+- React Native (Expo)
+- Axios
+- Expo Router
+- React Hooks (useState, useEffect)
+
+---
+
+## 🌐 API Used
+GET https://api.escuelajs.co/api/v1/products
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository
+
+   git clone https://github.com/your-username/product-module.git
+
+2. Navigate into the project folder
+
+   cd product-module
+
+3. Install dependencies
+
    npm install
-   ```
 
-2. Start the app
+4. Start the development server
 
-   ```bash
    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+5. Run on:
+   - Android Emulator
+   - iOS Simulator
+   - Expo Go App
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📌 Assumptions
+- API returns valid product data.
+- Each product contains at least one image.
+- Internet connection is required to fetch products.
+- Favorites (if implemented) are stored locally and not persisted.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 📂 Folder Structure
 
-```bash
-npm run reset-project
-```
+components/
+  - Button.jsx
+  - Error.jsx
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+screens/
+  - ProductList.jsx
+  - ProductDetail.jsx
+  - Home.jsx
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 🎯 Evaluation Focus
+- Clean UI and layout
+- Code structure and reusability
+- Proper API integration
+- Navigation handling
+- Smooth user experience
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 👨‍💻 Author
+Your Name
+"Alok kumar jha"
+
+
