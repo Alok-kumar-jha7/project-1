@@ -15,8 +15,8 @@ Users can navigate to a detail screen to view more information about each produc
 ## 🚀 Features
 - Product List Screen with API integration
 - Product Detail Screen
-- Loading and Error handling
-- Reusable components (ProductCard, AppButton, Loader)
+- Loading with react native inbuilt component and Error handling
+- Reusable components (Button, Error)
 - Responsive layout for different screen sizes
 - Clean UI with modern styling
 
@@ -71,16 +71,15 @@ GET https://api.escuelajs.co/api/v1/products
 ## 📂 Folder Structure
 
 components/
-  - ProductCard.js
-  - AppButton.js
-  - Loader.js
+  - Button.jsx
+  - Error.jsx
 
 screens/
-  - ProductList.js
-  - ProductDetail.js
+  - ProductList.jsx
+  - ProductDetail.jsx
+  - Home.jsx
 
-services/
-  - api.js
+
 
 ---
 
