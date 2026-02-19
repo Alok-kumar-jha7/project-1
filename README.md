@@ -1,6 +1,6 @@
 # Create a professional README.md file for the React Native Product Module
 
-import pypandoc
+
 
 readme_content = """
 # React Native Product Module
@@ -94,16 +94,6 @@ screens/
 
 ## 👨‍💻 Author
 Your Name
-"""
+"Alok kumar jha"
 
-output_path = "/mnt/data/README.md"
 
-pypandoc.convert_text(
-    readme_content,
-    'md',
-    format='md',
-    outputfile=output_path,
-    extra_args=['--standalone']
-)
-
-output_path
